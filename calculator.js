@@ -22,7 +22,6 @@ let operator;
 
 //Create function that takes an operator and two numbers,
 //then calls one of the functions above on the numbers
-
 function operate(operator, num1, num2) {
   return add(num1, num2);
 }
