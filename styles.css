@@ -45,9 +45,10 @@ body {
 
 #clear-delete-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 385px;
   height: 60px;
+  margin-bottom: 2px;
   /* border: 1px solid orangered; */
 }
 
