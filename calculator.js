@@ -46,9 +46,14 @@ How can this be accomplished??
 
 const digitButton = document.querySelectorAll(".num");
 const calcDisplay = document.querySelector(".display");
+
+function updateNumber(digit) {
+  num1 += digit;
+  calcDisplay.textContent = num1;
+}
+
 digitButton.forEach((button) => {
   button.addEventListener("click", () => {
-    num1 = button.textContent;
-    calcDisplay.textContent = num1;
+    updateNumber(button.textContent);
   });
 });
